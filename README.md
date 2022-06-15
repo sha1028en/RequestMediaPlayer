@@ -19,6 +19,12 @@ MP3 풀레이어를 내맘대로 구현, 가능한 상용 애플리케이션의 
     - MainActivity의 Recycyler를 담당한다.
     - 음원 정보들은 목록으로 표시하고 관리한다.
     - item 클릭시 관련 정보를 싸들고 EnhancedActivity로 이동한다
+    
+![KakaoTalk_20220615_161850250_02](https://user-images.githubusercontent.com/100817401/173767692-9a4bf1c8-0367-4b7a-bc32-4ea14db929c6.jpg) ![KakaoTalk_20220615_161850250_01](https://user-images.githubusercontent.com/100817401/173767699-4144bcd6-f5e6-4232-b520-026f909ec871.jpg)
+![KakaoTalk_20220615_161850250_03](https://user-images.githubusercontent.com/100817401/173767702-87f0a6dc-02bb-4e75-a5ca-558032fb310c.jpg)
+
+
+
 
 - MediaEnhancedActivity
   - MainActivity에서 받아온 음원정보들을 담아서 리스트로 나열.
@@ -36,6 +42,8 @@ MP3 풀레이어를 내맘대로 구현, 가능한 상용 애플리케이션의 
     - MediaEnhancedActivity의 ViewPager의 일부이다.
     - 여기서 음원에 알맞는 작가명, 파일명, 커버아트를 표시한다.
     - 재생하는 음원이 변경돼면 같이 바뀐다.
+![KakaoTalk_20220615_161850250_05](https://user-images.githubusercontent.com/100817401/173767605-762e62ee-c99c-4fdb-9e85-5a9c16ee5298.jpg)
+
   
 <hr>
 
