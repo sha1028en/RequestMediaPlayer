@@ -42,6 +42,7 @@ MP3 풀레이어를 내맘대로 구현, 가능한 상용 애플리케이션의 
     - MediaEnhancedActivity의 ViewPager의 일부이다.
     - 여기서 음원에 알맞는 작가명, 파일명, 커버아트를 표시한다.
     - 재생하는 음원이 변경돼면 같이 바뀐다.
+
 ![KakaoTalk_20220615_161850250_05](https://user-images.githubusercontent.com/100817401/173767605-762e62ee-c99c-4fdb-9e85-5a9c16ee5298.jpg)
 
   
