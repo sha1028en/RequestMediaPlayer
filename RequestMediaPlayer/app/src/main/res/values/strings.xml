@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RequestMediaPlayer</string>
+    <string name="item_recycler_media_example_title">어윤수의 4연준</string>
+    <string name="item_recycler_media_example_duration">44:44</string>
+    <string name="item_recycler_media_example_artist">어윤수</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

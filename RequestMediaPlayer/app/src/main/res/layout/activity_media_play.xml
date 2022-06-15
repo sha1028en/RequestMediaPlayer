@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MediaPlayActivity">
+
+    <!--    NOT USE ANYWHERE    -->
+    <!--    LEGACY CODE    -->
+
+
+
+    <ImageView
+        android:id="@+id/ActivityMediaPlay_coverArt"
+        android:layout_width="@dimen/media_cover_art_size"
+        android:layout_height="@dimen/media_cover_art_size"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="@drawable/icon_audio_24" />
+
+    <TextView
+        android:id="@+id/ActivityMediaPlay_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/item_recycler_media_example_title"
+        android:textSize="@dimen/item_recycler_media_title_txt_size"
+        app:layout_constraintEnd_toEndOf="@+id/ActivityMediaPlay_coverArt"
+        app:layout_constraintStart_toStartOf="@+id/ActivityMediaPlay_coverArt"
+        app:layout_constraintTop_toBottomOf="@+id/ActivityMediaPlay_coverArt" />
+
+    <TextView
+        android:id="@+id/ActivityMediaPlay_artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/item_recycler_media_example_artist"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/ActivityMediaPlay_coverArt"
+        app:layout_constraintStart_toStartOf="@+id/ActivityMediaPlay_coverArt"
+        app:layout_constraintTop_toBottomOf="@+id/ActivityMediaPlay_title" />
+
+    <SeekBar
+        android:id="@+id/ActivityMediaPlay_seekbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ActivityMediaPlay_artist" />
+
+    <TextView
+        android:id="@+id/ActivityMediaPlay_durationFront"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="00:00"
+        app:layout_constraintBottom_toTopOf="@+id/ActivityMediaPlay_seekbar"
+        app:layout_constraintStart_toStartOf="@+id/ActivityMediaPlay_seekbar" />
+
+    <TextView
+        android:id="@+id/ActivityMediaPlay_durationRear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item_recycler_media_example_duration"
+        app:layout_constraintBottom_toBottomOf="@+id/ActivityMediaPlay_durationFront"
+        app:layout_constraintEnd_toEndOf="@+id/ActivityMediaPlay_seekbar" />
+
+    <ImageView
+        android:id="@+id/ActivityMediaPlay_action"
+        android:layout_width="@dimen/media_action_btn_size"
+        android:layout_height="@dimen/media_action_btn_size"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ActivityMediaPlay_seekbar"
+        app:srcCompat="@drawable/icon_play_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/ActivityMediaPlay_actionStop"
+        android:layout_width="@dimen/media_action_btn_size"
+        android:layout_height="@dimen/media_action_btn_size"
+        android:layout_marginStart="32dp"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/ActivityMediaPlay_action"
+        app:layout_constraintStart_toEndOf="@+id/ActivityMediaPlay_action"
+        app:layout_constraintTop_toTopOf="@+id/ActivityMediaPlay_action"
+        app:srcCompat="@drawable/icon_stop_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/ActivityMediaPlay_actionMenu"
+        android:layout_width="@dimen/media_action_btn_size"
+        android:layout_height="@dimen/media_action_btn_size"
+        android:layout_marginEnd="32dp"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/ActivityMediaPlay_action"
+        app:layout_constraintEnd_toStartOf="@+id/ActivityMediaPlay_action"
+        app:layout_constraintTop_toTopOf="@+id/ActivityMediaPlay_action"
+        app:srcCompat="@drawable/icon_menu_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_recycler_media_title_txt_size">16sp</dimen>
+    <dimen name="item_recycler_media_txt_size">12sp</dimen>>
+
+    <dimen name="media_item_title_txt_size">20sp</dimen>
+    <dimen name="media_item_txt_size">16sp</dimen>
+
+
+    <dimen name="media_cover_art_size">150dp</dimen>
+    <dimen name="media_cover_art_size_xl">200dp</dimen>
+    <dimen name="media_cover_art_recycler_size">100dp</dimen>
+
+    <dimen name="media_action_btn_size">80dp</dimen>
+
+</resources>

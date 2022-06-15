@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ACTIVITY/MRHI/SHA1028EN/REQUEST/RequestMediaPlayer/app/src/main/res/drawable/icon_audio_24.xml" value="0.1945" />
+        <entry key="..\:/ACTIVITY/MRHI/SHA1028EN/REQUEST/RequestMediaPlayer/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/ACTIVITY/MRHI/SHA1028EN/REQUEST/RequestMediaPlayer/app/src/main/res/layout/activity_media_enhanced.xml" value="0.24947916666666667" />
+        <entry key="..\:/ACTIVITY/MRHI/SHA1028EN/REQUEST/RequestMediaPlayer/app/src/main/res/layout/activity_media_play.xml" value="0.264" />
+        <entry key="..\:/ACTIVITY/MRHI/SHA1028EN/REQUEST/RequestMediaPlayer/app/src/main/res/layout/fragment_media_view_page.xml" value="0.24947916666666667" />
+        <entry key="..\:/ACTIVITY/MRHI/SHA1028EN/REQUEST/RequestMediaPlayer/app/src/main/res/layout/item_recycler_media.xml" value="0.24947916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
