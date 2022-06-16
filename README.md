@@ -68,3 +68,5 @@ MP3 풀레이어를 내맘대로 구현, 가능한 상용 애플리케이션의 
     - 이것을 기반으로 MediaEnhancedActivity의 MediaPlayer가 음악을 재생한다
     - 음원들 다룰때 편한 메서드를 담는다.
 
+<hr>
+
